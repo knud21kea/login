@@ -35,4 +35,10 @@ public class LoginController
     public String accountCreated() {
         return "/created";
     }
+
+
+    @GetMapping("/test")
+    public String test() {
+        return "/test";
+    }
 }
