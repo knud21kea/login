@@ -29,7 +29,7 @@
         <span th:text="${userName.toString()}"></span>
     </li>
 </ul>
-<form name="form" action="/index" method="POST">
+<form name="form" th:action="@{/index}" method="POST">
 
     <label for="userName">Username</label><br>
     <input type="text" id="userName" name="userName" autocomplete="off" onkeyup="echoName(this.value);"/>
