@@ -33,12 +33,12 @@ public class LoginController
 
     @GetMapping("/created")
     public String accountCreated() {
-        return "/created";
+        return "created";
     }
 
 
     @GetMapping("/test")
     public String test() {
-        return "/test";
+        return "test";
     }
 }
