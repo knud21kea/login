@@ -28,7 +28,7 @@ public class LoginController
         String user = account.getParameter("userName");
         userNames.add(user);
         model.addAttribute("userNames", userNames);
-        return "redirect:/created";
+        return "redirect:created";
     }
 
     @GetMapping("/created")
