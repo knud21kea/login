@@ -46,9 +46,7 @@
     <span id="check"></span><br><br><br>
 
     <button id="resetButton" class="visible" type="button" onclick="resetForm()">Reset form</button>
-    <a th:href="@{/created}">
-    <button id="submitButton" class="hidden" type="submit">Create account</button>
-</a>
+    <button id="submitButton" class="hidden" type="submit" onclick="location.href='../login'">Create account</button>
 
 </form>
 <script th:inline="javascript">
